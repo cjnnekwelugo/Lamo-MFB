@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us - Lamo Microfinance Bank</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- HEADER SECTION -->
+    <header class="sticky top-0 z-50 bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- LOGO AND BRAND NAME -->
+                <div class="flex items-center gap-3 group cursor-pointer">
+                    <div class="w-12 h-12  bg-blue-600 to-blue-800 rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-110">
+                        <i class="fas fa-piggy-bank text-white text-xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-2xl font-bold  bg-blue-600 to-blue-800 bg-clip-text text-transparent">
+                            Lamo
+                        </span>
+                        <span class="text-xs text-gray-500 font-semibold tracking-wide">Microfinance Bank</span>
+                    </div>
+                </div>
+
+                <!-- NAVIGATION LINKS - DESKTOP -->
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="./index.html#home" class="text-gray-700 font-medium hover:text-blue-600 relative group transition-colors duration-300">
+                        Home
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                    <a href="./about.html" class="text-gray-700 font-medium hover:text-blue-600 relative group transition-colors duration-300">
+                        About
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                    <a href="./banking-services.html" class="text-gray-700 font-medium hover:text-blue-600 relative group transition-colors duration-300">
+                        Banking Services
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                    <a href="./loan-products.html" class="text-gray-700 font-medium hover:text-blue-600 relative group transition-colors duration-300">
+                        Loan Products
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                    <a href="./why-choose-us.html" class="text-gray-700 font-medium hover:text-blue-600 relative group transition-colors duration-300">
+                        Why Choose Us
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                    <a href="./testimonials.html" class="text-gray-700 font-medium hover:text-blue-600 relative group transition-colors duration-300">
+                        Testimonials
+                        <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
+                    </a>
+                </div>
+
+                <!-- ACTION BUTTONS - DESKTOP -->
+                <div class="hidden lg:flex items-center gap-4">
+                    <button class="px-6 py-2.5 text-blue-600 font-semibold border-2 border-blue-600 rounded-lg hover:bg-blue-50 transition-all duration-300 hover:shadow-md">
+                        Sign In
+                    </button>
+                    <button class="px-6 py-2.5  bg-blue-600 to-blue-800 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-blue-600/50 transition-all duration-300 hover:scale-105">
+                        Create Account
+                    </button>
+                </div>
+
+                <!-- MOBILE MENU BUTTON -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+                    <i class="fas fa-bars text-2xl text-gray-700"></i>
+                </button>
+            </div>
+
+            <!-- MOBILE MENU -->
+            <div id="mobileMenu" class="hidden lg:hidden pb-6 border-t border-gray-200">
+                <div class="flex flex-col gap-4 pt-6">
+                    <a href="./index.html#home" class="text-gray-700 font-medium hover:text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                        Home
+                    </a>
+                    <a href="./about.html" class="text-gray-700 font-medium hover:text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                        About
+                    </a>
+                    <a href="./banking-services.html" class="text-gray-700 font-medium hover:text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                        Banking Services
+                    </a>
+                    <a href="./loan-products.html" class="text-gray-700 font-medium hover:text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                        Loan Products
+                    </a>
+                    <a href="./why-choose-us.html" class="text-gray-700 font-medium hover:text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                        Why Choose Us
+                    </a>
+                    <a href="./testimonials.html" class="text-gray-700 font-medium hover:text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300">
+                        Testimonials
+                    </a>
+                    <div class="flex flex-col gap-3 mt-4 pt-4 border-t border-gray-200">
+                        <button class="w-full px-6 py-2.5 text-blue-600 font-semibold border-2 border-blue-600 rounded-lg hover:bg-blue-50 transition-all duration-300">
+                            Sign In
+                        </button>
+                        <button class="w-full px-6 py-2.5  bg-blue-600 to-blue-800 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300">
+                            Create Account
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="py-20 lg:py-28 from-blue-50 via-white to-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center mb-16 lg:mb-20 animate-fade-in">
+                <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6">
+                    Why Choose
+                    <span class=" bg-blue-600 to-blue-800 bg-clip-text text-transparent">
+                        Lamo?
+                    </span>
+                </h1>
+                <p class="text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto">
+                    We're committed to providing you with the best financial services, trusted by thousands of customers across the country.
+                </p>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+                
+                <!-- Feature 1: Secure Banking -->
+                <div class="group relative animate-fade-in" style="animation-delay: 0.1s;">
+                    <div class="absolute inset-0  bg-blue-600 to-blue-800 rounded-xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    <div class="relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 h-full hover:scale-105 border border-gray-100">
+                        <!-- Icon Container -->
+                        <div class="w-16 h-16  bg-blue-100 to-blue-50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-lock text-3xl text-blue-600"></i>
+                        </div>
+
+                        <!-- Content -->
+                        <h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            Secure Banking
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Your financial security is our top priority. We use advanced encryption and industry-leading security protocols to protect your funds and personal information.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-blue-600"></i>
+                                <span>256-bit SSL encryption</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-blue-600"></i>
+                                <span>FDIC insured accounts</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Fast Loan Approval -->
+                <div class="group relative animate-fade-in" style="animation-delay: 0.2s;">
+                    <div class="absolute inset-0  bg-green-600 to-green-800 rounded-xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    <div class="relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 h-full hover:scale-105 border border-gray-100">
+                        <!-- Icon Container -->
+                        <div class="w-16 h-16  bg-green-100 to-green-50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-bolt text-3xl text-green-600"></i>
+                        </div>
+
+                        <!-- Content -->
+                        <h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            Fast Loan Approval
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Get approved for loans in as little as 24 hours with our streamlined application process and quick decision-making system.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-green-600"></i>
+                                <span>Quick online application</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-green-600"></i>
+                                <span>Instant approval updates</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Low Interest Rates -->
+                <div class="group relative animate-fade-in" style="animation-delay: 0.3s;">
+                    <div class="absolute inset-0  bg-purple-600 to-purple-800 rounded-xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    <div class="relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 h-full hover:scale-105 border border-gray-100">
+                        <!-- Icon Container -->
+                        <div class="w-16 h-16  bg-purple-100 to-purple-50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-percent text-3xl text-purple-600"></i>
+                        </div>
+
+                        <!-- Content -->
+                        <h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            Low Interest Rates
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Enjoy competitive interest rates that are among the lowest in the market. We believe financial growth should be affordable for everyone.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-purple-600"></i>
+                                <span>Rates from 4% to 12%</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-purple-600"></i>
+                                <span>No hidden charges</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Mobile Banking -->
+                <div class="group relative animate-fade-in" style="animation-delay: 0.4s;">
+                    <div class="absolute inset-0  bg-cyan-600 to-cyan-800 rounded-xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    <div class="relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 h-full hover:scale-105 border border-gray-100">
+                        <!-- Icon Container -->
+                        <div class="w-16 h-16  bg-cyan-100 to-cyan-50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-mobile-alt text-3xl text-cyan-600"></i>
+                        </div>
+
+                        <!-- Content -->
+                        <h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            Mobile Banking
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Bank anytime, anywhere with our powerful mobile app. Check balances, transfer funds, and apply for loans on the go with ease.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-cyan-600"></i>
+                                <span>24/7 access</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-cyan-600"></i>
+                                <span>Real-time transactions</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 5: Trusted by Thousands -->
+                <div class="group relative animate-fade-in" style="animation-delay: 0.5s;">
+                    <div class="absolute inset-0  bg-yellow-600 to-yellow-800 rounded-xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    <div class="relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 h-full hover:scale-105 border border-gray-100">
+                        <!-- Icon Container -->
+                        <div class="w-16 h-16  bg-yellow-100 to-yellow-50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-star text-3xl text-yellow-600"></i>
+                        </div>
+
+                        <!-- Content -->
+                        <h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            Trusted by Thousands
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Join over 10 million satisfied customers who trust Lamo for their financial needs. Our track record speaks for itself.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-yellow-600"></i>
+                                <span>4.8/5 star rating</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-yellow-600"></i>
+                                <span>40+ years in business</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 6: Excellent Customer Support -->
+                <div class="group relative animate-fade-in" style="animation-delay: 0.6s;">
+                    <div class="absolute inset-0  bg-red-600 to-red-800 rounded-xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                    <div class="relative bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 h-full hover:scale-105 border border-gray-100">
+                        <!-- Icon Container -->
+                        <div class="w-16 h-16  bg-red-100 to-red-50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-headset text-3xl text-red-600"></i>
+                        </div>
+
+                        <!-- Content -->
+                        <h3 class="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
+                            Excellent Customer Support
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">
+                            Our dedicated support team is available 24/7 to help you with any questions or concerns. Your satisfaction is our priority.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-red-600"></i>
+                                <span>24/7 support hotline</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle text-red-600"></i>
+                                <span>Live chat & email support</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="py-16 lg:py-24  bg-blue-600 to-blue-800 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+                Ready to Experience the Difference?
+            </h2>
+            <p class="text-lg lg:text-xl mb-10 opacity-90 max-w-2xl mx-auto">
+                Join thousands of satisfied customers who have transformed their financial lives with Lamo Microfinance Bank.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="px-8 py-4 bg-white text-blue-600 font-bold rounded-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                    <i class="fas fa-user-plus mr-2"></i>
+                    Open Account Today
+                </button>
+                <button class="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-blue-700 transition-all duration-300">
+                    <i class="fas fa-phone mr-2"></i>
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+      <!-- FOOTER SECTION -->
+    <footer class="relative  from-gray-900 to-black text-gray-300 overflow-hidden">
+        <!-- Decorative gradient elements -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-900 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-pulse"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-indigo-900 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-pulse" style="animation-delay: 2s;"></div>
+
+        <div class="relative z-10">
+            <!-- Main Footer Content -->
+            <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+                    
+                    <!-- BRAND & COMPANY INFO -->
+                    <div class="lg:col-span-1 space-y-6">
+                        <div class="flex items-center gap-3 group cursor-pointer">
+                            <div class="w-12 h-12  bg-blue-500 to-indigo-600 rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-110">
+                                <i class="fas fa-piggy-bank text-white text-xl"></i>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-xl font-bold  bg-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                                    Lamo
+                                </span>
+                                <span class="text-xs text-gray-500 font-semibold tracking-wide">Microfinance Bank</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Empowering communities with accessible financial solutions for over 40 years.
+                        </p>
+                        <div class="flex gap-4 pt-4">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-blue-600/50">
+                                <i class="fab fa-facebook-f text-white"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-400 hover:bg-blue-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-blue-400/50">
+                                <i class="fab fa-twitter text-white"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-pink-600 hover:bg-pink-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-pink-600/50">
+                                <i class="fab fa-instagram text-white"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-700 hover:bg-blue-800 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-blue-700/50">
+                                <i class="fab fa-linkedin-in text-white"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-red-600 hover:bg-red-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-red-600/50">
+                                <i class="fab fa-youtube text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- QUICK LINKS -->
+                    <div class="space-y-6">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span class="w-1 h-6  from-blue-400 to-indigo-600 rounded-full"></span>
+                            Quick Links
+                        </h3>
+                        <ul class="space-y-3">
+                            <li>
+                                <a href="./index.html#home" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./about.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./banking-services.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Services</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./loan-products.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Loan Products</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Career</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- SERVICES -->
+                    <div class="space-y-6">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span class="w-1 h-6  from-blue-400 to-indigo-600 rounded-full"></span>
+                            Services
+                        </h3>
+                        <ul class="space-y-3">
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Savings Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Business Loans</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Personal Loans</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Investments</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Mobile Banking</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Card Services</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- SUPPORT -->
+                    <div class="space-y-6">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span class="w-1 h-6  from-blue-400 to-indigo-600 rounded-full"></span>
+                            Support
+                        </h3>
+                        <ul class="space-y-3">
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>FAQ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Help Center</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Contact Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Terms & Conditions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 flex items-center gap-2 group">
+                                    <i class="fas fa-chevron-right text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300"></i>
+                                    <span>Security</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- CONTACT INFORMATION -->
+                    <div class="space-y-6">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                            <span class="w-1 h-6  from-blue-400 to-indigo-600 rounded-full"></span>
+                            Contact Info
+                        </h3>
+                        <div class="space-y-4">
+                            <div class="flex gap-4 group">
+                                <div class="w-10 h-10  from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-blue-400 group-hover:bg-blue-600/40 transition-colors duration-300">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-400">123 Finance Street</p>
+                                    <p class="text-sm text-gray-400">New York, NY 10001</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 group">
+                                <div class="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center text-blue-400 group-hover:bg-blue-600/40 transition-colors duration-300">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-400">+1 (800) 123-4567</p>
+                                    <p class="text-xs text-gray-500">Available 24/7</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 group">
+                                <div class="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center text-blue-400  group-hover:bg-blue-600/40 transition-colors duration-300">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-400">support@lamo.com</p>
+                                    <p class="text-xs text-gray-500">We respond within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DIVIDER -->
+                <div class="border-t border-gray-800"></div>
+
+                <!-- BOTTOM FOOTER -->
+                <div class="py-8 flex flex-col md:flex-row md:justify-between md:items-center gap-6">
+                    <div class="text-sm text-gray-500 text-center md:text-left">
+                        <p>&copy; 2026 Lamo Microfinance Bank. All rights reserved. | <a href="./why-choose-us.html" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">Privacy Policy</a> | <a href="./loan-products.html" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">Terms of Service</a></p>
+                    </div>
+                    <div class="flex justify-center md:justify-end gap-4">
+                        <span class="text-xs text-gray-600 flex items-center gap-2">
+                            <i class="fas fa-lock text-green-400"></i>
+                            SSL Secured
+                        </span>
+                        <span class="text-xs text-gray-600 flex items-center gap-2">
+                            <i class="fas fa-shield-alt text-green-400"></i>
+                            PCI Compliant
+                        </span>
+                        <span class="text-xs text-gray-600 flex items-center gap-2">
+                            <i class="fas fa-check-circle text-green-400"></i>
+                            FDIC Insured
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slide-in-up {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fade-in 0.8s ease-out forwards;
+            opacity: 0;
+        }
+
+        .animate-slide-in-up {
+            animation: slide-in-up 0.8s ease-out forwards;
+            opacity: 0;
+        }
+    </style>
+
+    
+</body>
+</html>
+    
