@@ -28,4 +28,4 @@ I prompted all the pages differently.
    Create a professional footer for the website with logo, quick links, services, contact information, social links, and copyright notice in a financial institution style.note: footer in all the pages
 
 
-I VIBE ENGINNERED ALL THE SECTIONS TOOK A LOT OF TIME TO GO THROUGH EACH SECTION COS I EXPERIENCED A LOT OF ERRORS IN THIS WEBSITE.
+I VIBE ENGINNERED ALL THE SECTIONS DOWNLOADED IMAGES FORM FREEPICK,I PUT LOT OF TIME TO GO THROUGH EACH SECTION COS I EXPERIENCED A LOT OF ERRORS IN THIS WEBSITE, I ADDED JS ON THE MOBILE HAMBUGER ONLY TO BE NAVIGATING IN MOBILE SCREEN SIZES.
