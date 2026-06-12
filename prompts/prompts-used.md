@@ -27,5 +27,11 @@ I prompted all the pages differently.
 8. Footer Prompt
    Create a professional footer for the website with logo, quick links, services, contact information, social links, and copyright notice in a financial institution style.note: footer in all the pages
 
+9. Create an account page
+   act as a snr developer create a create an account page for a bank website named lamo microfinance bank used blue and white as the design color create and style with tailwind css.
+
+10. Sign in page
+   Using the same approch create a sign in page for the same bank  use blue and white as the design color create and style with tailwind css.      
+
 
 I VIBE ENGINNERED ALL THE SECTIONS DOWNLOADED IMAGES FORM FREEPICK,I PUT LOT OF TIME TO GO THROUGH EACH SECTION COS I EXPERIENCED A LOT OF ERRORS IN THIS WEBSITE, I ADDED JS ON THE MOBILE HAMBUGER ONLY TO BE NAVIGATING IN MOBILE SCREEN SIZES.
